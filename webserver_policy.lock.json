@@ -1,0 +1,51 @@
+{
+  "revision_id": "04de24175628e170a1a44ca701689c95bd4ee4215a50efc2c5b354aed5f9eb6c",
+  "name": "webserver",
+  "run_list": [
+    "recipe[apache::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "apache": {
+      "version": "0.1.0",
+      "identifier": "c234e08f37cede47d7fc6d5d31477cfc6c70c22a",
+      "dotted_decimal_identifier": "54664284561985246.20222202513011015.137423592931882",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": null,
+        "revision": "1e245d7f6263535b52110158cc2c1638c8320a39",
+        "working_tree_clean": false,
+        "published": true,
+        "synchronized_remote_branches": [
+          "origin/main"
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "apache",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "apache (0.1.0)": [
+
+      ]
+    }
+  }
+}
